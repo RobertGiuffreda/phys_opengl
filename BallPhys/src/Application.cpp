@@ -84,7 +84,7 @@ int main(void)
     Icosphere ico(1.0f, 3);
 
     /* Shaders */
-    Shader cel_shader("res/shaders/celVert.shader", "res/shaders/celFrag.shader");
+    Shader cel_shader("../BallPhys/res/shaders/celVert.shader", "../BallPhys/res/shaders/celFrag.shader");
     cel_shader.Bind();
     cel_shader.SetUniformVec3("light_pos", glm::vec3(0.0f, 0.0f, 0.0f));
     cel_shader.SetUniformVec3("light_color", glm::vec3(1.0f, 1.0f, 1.0f));

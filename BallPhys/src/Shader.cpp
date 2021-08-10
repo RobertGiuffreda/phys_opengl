@@ -24,6 +24,9 @@ Shader::Shader(const std::string& vertpath, const std::string& fragpath)
 
     vertexSource = vStream.str();
     fragmentSource = fStream.str();
+    
+    std::cout << vertexSource << std::endl;
+    std::cout << fragmentSource << std::endl;
 
     const char* vSource = vertexSource.c_str();
     const char* fSource = fragmentSource.c_str();
