@@ -19,7 +19,7 @@ include_directories( ${OPENGL_INCLUDE_DIRS} )
 set(DEPENDENCIES "${CMAKE_SOURCE_DIR}/depend")
 
 # GLFW
-set(GLFW_DIR "${DEPENDENCIES}/glfw")
+set(GLFW_DIR "${DEPENDENCIES}/GLFW")
 set(GLFW_BUILD_EXAMPLES OFF CACHE INTERNAL "Build the GLFW example programs")
 set(GLFW_BUILD_TESTS OFF CACHE INTERNAL "Build the GLFW test programs")
 set(GLFW_BUILD_DOCS OFF CACHE INTERNAL "Build the GLFW documentation")
