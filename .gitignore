@@ -428,7 +428,8 @@ FodyWeavers.xsd
 bin/
 obj/
 
-depend/
+# depend/
+build/
 
 *.sln
 *.vcxproj

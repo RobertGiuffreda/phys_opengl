@@ -12,9 +12,7 @@ VertexArray::~VertexArray()
 
 template <typename T>
 void VertexArray::AddVertexBufferElement(unsigned int count)
-{
-	static_assert(false);
-}
+{}
 
 template<>
 void VertexArray::AddVertexBufferElement<float>(unsigned int count)
